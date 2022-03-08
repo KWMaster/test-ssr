@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh" ng-app>
+<!-- 使用双花括号(double-mustache)进行 HTML 转义插值(HTML-escaped interpolation) -->
+<head>
+
+<title>{{ title }}</title>
+<!-- 使用三花括号(triple-mustache)进行 HTML 不转义插值(non-HTML-escaped interpolation) -->
+    {{{ meta }}}
+
+<!--<script src="./assets/echarts.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+
+</head>
+<body>
+<!--vue-ssr-outlet-->
+
+<div ng-include="'https://upay.10010.com/npfweb/npfcellweb/phone_recharge_fill.htm'"></div>
+
+
+</body>
+
+</html>
